@@ -10,7 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
-import locale
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -101,7 +100,6 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 LANGUAGE_CODE = 'fa-IR'
-locale.setlocale(locale.LC_ALL, 'fa_IR')
 TIME_ZONE = 'Asia/Tehran'
 
 USE_I18N = True
